@@ -1,0 +1,68 @@
+{
+  "searches": [
+    {
+      "name": "Nike Air Max 90 - Taille 42",
+      "webhook_url": "https://discord.com/api/webhooks/VOTRE_WEBHOOK_ICI",
+      "keywords": "nike air max 90",
+      "sizes": [207, 208],
+      "price_from": 20,
+      "price_to": 80,
+      "status": [3, 4],
+      "order": "newest_first"
+    },
+    {
+      "name": "Vestes The North Face - Homme",
+      "webhook_url": "https://discord.com/api/webhooks/VOTRE_WEBHOOK_ICI",
+      "keywords": "the north face",
+      "catalog": ["1193"],
+      "price_from": 30,
+      "price_to": 150,
+      "status": [2, 3, 4],
+      "order": "price_low_to_high"
+    },
+    {
+      "name": "Sneakers - Bonnes affaires",
+      "webhook_url": "https://discord.com/api/webhooks/VOTRE_WEBHOOK_ICI",
+      "keywords": "sneakers",
+      "price_from": 10,
+      "price_to": 50,
+      "status": [3, 4, 5],
+      "order": "newest_first"
+    }
+  ],
+  "documentation": {
+    "sizes": {
+      "description": "IDs des tailles Vinted",
+      "exemples": {
+        "206": "41",
+        "207": "42",
+        "208": "43",
+        "209": "44",
+        "210": "45"
+      },
+      "note": "Trouvez les IDs en inspectant l'URL de recherche Vinted"
+    },
+    "status": {
+      "1": "Neuf avec étiquette",
+      "2": "Neuf sans étiquette",
+      "3": "Très bon état",
+      "4": "Bon état",
+      "5": "Satisfaisant"
+    },
+    "order": {
+      "newest_first": "Plus récents d'abord",
+      "price_low_to_high": "Prix croissant",
+      "price_high_to_low": "Prix décroissant",
+      "relevance": "Pertinence"
+    },
+    "catalog": {
+      "description": "IDs des catégories Vinted",
+      "exemples": {
+        "1193": "Vestes et manteaux homme",
+        "1203": "Pulls et sweats homme",
+        "2050": "Baskets et tennis"
+      },
+      "note": "Inspectez l'URL Vinted après avoir sélectionné une catégorie"
+    }
+  }
+}
